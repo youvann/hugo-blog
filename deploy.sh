@@ -11,7 +11,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 hugo
 
 # Go To Public folder
-cd public
+pushd public
 
 # Add changes to git.
 git add .
@@ -24,4 +24,12 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
+git push origin master
+
+popd
+
+git add .
+
+git commit -m "update public submodule"
+
 git push origin master

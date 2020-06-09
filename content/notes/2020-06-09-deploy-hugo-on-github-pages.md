@@ -5,7 +5,7 @@ date: 2020-06-09
 draft: false
 ---
 
-Host a Github __user__ page.
+How to host Hugo on a Github __user__ page ?
 
 * Create a project `<YOUR-PROJECT>` on github (e.g. `hugo-blog`) which contains Hugo's content
 * Create an other project `<USERNAME>.github.io` (e.g. `youvann.github.io`) in order to deploy Hugo website
@@ -25,4 +25,4 @@ git push origin master
 
 ## Resources
 
-[Hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+* [Hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
