@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://youvann.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "nord-link"
+title = "Kevin Meas"
+theme = "nord"
 enableEmoji = "true"
