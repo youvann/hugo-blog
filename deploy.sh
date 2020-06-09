@@ -28,7 +28,7 @@ git push origin master
 
 popd
 
-git add .
+git add public 
 
 git commit -m "update public submodule"
 
