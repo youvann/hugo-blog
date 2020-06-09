@@ -1,6 +1,6 @@
 [submodule "themes/nord"]
 	path = themes/nord
-	url = https://github.com/youvann/hugo-theme-nord
+	url = ssh://git@github.com/youvann/hugo-theme-nord.git
 [submodule "public"]
 	path = public
 	url = ssh://git@github.com/youvann/youvann.github.io.git
