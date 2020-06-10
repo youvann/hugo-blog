@@ -29,6 +29,7 @@ git push origin master
 popd
 
 git add public 
+git add themes/nord 
 
 git commit -m "update public submodule"
 
